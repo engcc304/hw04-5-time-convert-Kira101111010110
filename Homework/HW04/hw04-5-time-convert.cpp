@@ -13,3 +13,14 @@
     Output:
         27 days = 2332800 seconds
 */
+#include <stdio.h>
+
+int main () {
+    int D, Ds ;
+
+    printf( "Input Days : \n " ) ;
+    scanf( "%d", &D ) ;
+    Ds = ( ( ( D * 24 ) * 60 ) * 60 )  ; 
+    printf( "%d days = %d seconds", D, Ds ) ;
+    return 0 ;
+} //end main function
